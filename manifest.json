@@ -1,0 +1,34 @@
+{
+"manifest_version":2,
+
+"name": "Polarity",
+"description": "Think from the other perspective",
+"version": "1.0",
+
+"browser_action": {
+	"default_icon": "icon.png",
+	"browser_action": {}
+	},
+"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+"content_scripts": [
+	{
+		"matches": [
+			"https://*.haaretz.co.il/*",
+			"https://*.mako.co.il/*",
+			"https://*.calcalist.co.il/*",
+			"https://*.walla.co.il/*",
+			"https://*.ynet.co.il/*"
+		],
+		"js": ["backgroundPolar.js"],
+		"run_at": "document_idle",
+		"persistance" : false
+	}
+	],
+"permissions" :[
+	"activeTab"
+	]
+
+}
