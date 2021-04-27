@@ -1,5 +1,6 @@
 **Polarity**
 #Chrome Extension to confuse polarity inside webpages to help you see differently.
+
 	Apples => Oranges
 	White => Black
 	Flat => Round
@@ -9,11 +10,11 @@ Currently setup to Automatically inter-change Israeli news sites political polar
 Click on the icon to run on anysite.
 Privacy: Information does not exit the browser ever.
 
-haaretz.co.il
-mako.co.il
-calcalist.co.il
-walla.co.il
-ynet.co.il
+	haaretz.co.il
+	mako.co.il
+	calcalist.co.il
+	walla.co.il
+	ynet.co.il
 
 “The worst of all deceptions is self-deception”
 - Plato
