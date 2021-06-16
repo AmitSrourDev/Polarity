@@ -1,4 +1,5 @@
 **Polarity**
+Link to Chrome Store: [Click Here](https://chrome.google.com/webstore/detail/polarity/fmokhbefoabjelngihnlfjkepmlfedkb?hl=iw)
 #Chrome Extension to confuse polarity inside webpages to help you see differently.
 
 	Apples => Oranges
